@@ -1,0 +1,5 @@
+<div class="sidebar">
+  <a *ngFor="let menuItem of menu" href="{{ menuItem.link }}">
+    <i class="{{ menuItem.icon }}"></i> {{ menuItem.title }}
+  </a>
+</div>

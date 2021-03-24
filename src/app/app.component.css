@@ -1,0 +1,23 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 160px 900px;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.header {
+  height: 150px;
+}
+
+.main {
+}
+
+.footer {
+  height: 200px;
+}
